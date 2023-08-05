@@ -1,0 +1,24 @@
+div{
+    height: 150px;
+    width: 700px;
+    background-color: hotpink;
+    border: 5px solid black;
+    /* border-left-color: blue;
+    border-left-style: dashed; */
+    border-radius: 30px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius:80px ;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    padding: 30px;
+}
+h1{
+    border: 3px dotted green;
+}
+div::selection{
+    color: beige;
+}
+button{
+    padding: 17px 13px 17px 13px;
+    background-color: crimson;
+}

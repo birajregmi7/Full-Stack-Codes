@@ -1,0 +1,18 @@
+h1 {
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: lighter;
+}
+h3{
+    text-decoration: green underline;
+}
+h4{
+    text-decoration: gold overline;
+}

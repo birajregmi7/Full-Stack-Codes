@@ -1,0 +1,25 @@
+#que1{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em; 
+    /* 1em = 16px, cuz 16 is default font size */
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+.que2{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 80%;
+    margin: 10px;
+    display: inline-block;
+}
+#que3 ul li {
+    display: inline;
+}
+/* Li(listitems)have their display property set to“list-item” by default which makes them a bulleted list item.When this property is reset by you to“inline”,then the bullet pointsalsodisappear.Inaway,weoverridethedefaultsettingswithourCSS. */

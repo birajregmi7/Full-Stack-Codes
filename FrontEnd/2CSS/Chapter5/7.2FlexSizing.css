@@ -1,0 +1,44 @@
+.outer{
+    height:500px;
+    width: 60%;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    /* in column the height is increased */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#num2{
+    align-self: flex-start;
+    flex-basis: 200px; 
+    /* here color 2's size is grown using flex-baiss to 200px */
+    /* if we change flex-direction to coloum then the height will get change cuz main axix of column is top to bottom */
+}
+#num4{
+    align-self: flex-start;
+    flex-basis: 200px;
+}
+#num1{
+    /* flex-grow: 1; */
+    /* 1 is taking half the free space then 2 */
+}
+#num3{
+    /* flex-grow: 2; */
+    /* 3 is taking double the size of 1 to fill the free space */
+}
+#num5{
+    flex-shrink: 2;
+}
+#num7{
+    flex-shrink: 1.5;
+}
+.outer div {
+    height: 100px;
+    width: 100px;
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

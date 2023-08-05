@@ -1,0 +1,34 @@
+
+.all.sub2 {
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+    animation: stateChange 3s ease-in-out 1s infinite alternate;
+}
+
+@keyframes stateChange {
+    5% {
+        height: 200px;
+        width: 400px;
+        background-color: rgb(255, 145, 0);
+        font-size: 3em;
+    }
+    20% {
+        height: 300px;
+        width: 500px;
+        background-color: rgb(135, 222, 206);
+        font-size: 3em;
+    }
+    50% {
+        height: 200px;
+        width: 400px;
+        background-color: rgb(40, 110, 36);
+        font-size: 3em;
+    }
+    100% {
+        height: 600px;
+        background-color: rgb(46, 36, 79);
+        width: 600px;
+        font-size: 7em;
+    }
+}

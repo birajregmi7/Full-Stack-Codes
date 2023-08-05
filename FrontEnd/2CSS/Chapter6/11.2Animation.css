@@ -1,0 +1,47 @@
+.all.sub1 {
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+    animation-name: allAnimations;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    margin-bottom: 20px;
+}
+
+.all.sub2 {
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+    animation: stateChange 3s ease-in-out 1s infinite alternate;
+}
+
+@keyframes allAnimations {
+    from {
+        height: 200px;
+        width: 400px;
+        background-color: burlywood;
+        font-size: 3em;
+    }
+    to {
+        height: 300px;
+        background-color: rgb(46, 36, 79);
+        width: 500px;
+        font-size: 7em;
+    }
+}
+
+@keyframes stateChange {
+    to {
+        border-radius: 100%;
+        
+        
+    }
+    from {
+        border-radius: 50%;
+        height: 300px;
+        width: 500px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,31 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(167, 20, 20);
+    margin: 10px;
+    display: inline-block;
+}
+#static{
+    background-color: rgb(16, 16, 215);
+    position:static;
+    top:100px;
+    left:100px;
+}
+#relative{
+    background-color: rgb(215, 129, 16);
+    position:relative;
+    top:100px;
+    left:100px;
+}
+#absolute{
+    background-color: rgb(215, 16, 135);
+    position:absolute;
+    top:100px;
+    left:100px; 
+}
+#fixed{
+    background-color: rgb(44, 173, 64);
+    position:absolute;
+    top:200px;
+    left:200px; 
+}

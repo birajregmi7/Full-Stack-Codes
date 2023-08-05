@@ -1,0 +1,22 @@
+#navbar{
+    height: 50px;
+    width: 900px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.option{
+    
+    /* flex-direction: flex-start; */
+   
+    font-size: 24px;
+    margin-left: 5px;
+    border-radius: 10px;
+    line-height: 50px;
+    margin-right: 10px;
+
+}

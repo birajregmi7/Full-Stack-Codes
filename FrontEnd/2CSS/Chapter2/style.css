@@ -1,0 +1,112 @@
+/* Universal Selector */
+*{
+    font-family: courier New;
+}
+/* Element Selector */
+h1,h3{
+    color: #B72C27;
+}
+/* Use of ID selector */
+#signup{
+    background-color: #B72C27;
+    color: white;
+}
+#login{
+    background-color: white;
+}
+/* Use of Class Selector */
+.upvote{
+    background-color: green;
+    color: white;
+}
+/* descendant selector */
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+/* descendant selector */
+nav ul li a{
+    color: rgb(31, 51, 44);
+}
+/* sibling combinator */
+p + h3{
+    text-decoration: underline;
+}
+/* sibling combinator */
+.upvote + button{
+    background-color: aquamarine;
+}
+/* child combinator */
+/* Here input is child of div so it selects input, if there were other child then div wouldn't have selected other child  */
+div > input{
+    background-color: rgb(178, 231, 231);
+}
+/* Attribute Selector */
+ input[type=text]{
+    color: red;
+ }
+ /* Attribute Selector */
+ input[type=password]{
+    color:green;
+ }
+  /* Attribute Selector */
+  input[type]{
+    background-color: ghostwhite;
+  }
+/* Practice QUestion */
+#myId p {
+    color: green;
+}
+/* Practice QUestion */
+div[id="myId"] p {
+    color:green;
+}
+/* We can do use any of the above methods */
+
+/* psudo class */
+/* hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+
+/* active */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color:blue ;
+}
+/* checked */
+input[type=radio]:checked + label{
+    color: tomato;
+    font-weight: bold;
+
+}
+/* nth-of-type */
+div:nth-of-type(2){
+   background-color: rgb(188, 203, 198); 
+}
+div:nth-of-type(2n){
+    background-color: antiquewhite;
+}
+/* HEre 2n means that every 2nd time nth type will be enabled */
+.btn1:nth-of-type(2n){
+    background-color: cadetblue;
+}
+/* Pseudo Elements */
+ /*firstline  */
+h1::first-letter{
+    color: #491412;
+}
+p::first-line{
+    color: darkkhaki;
+}
+P::selection{
+    background-color: chocolate;
+}

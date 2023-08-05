@@ -1,0 +1,22 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(198, 241, 241);
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    /* we can se after inspecting */
+    /* grid-gap: 10px 20px; */
+    /* grid-gap: 20px; */
+    /* use row-gap or grid-gap it's same */
+}
+.item{
+    /* if we remove height and width then the gird item will be automatic filled in grid cell */
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.images{
+    height: 200px;
+    width: 400px;
+    background-color:#FBFFDC ;
+    box-shadow: 3px 2px 3px black;
+    margin: 10px;
+}
+
+#img1{
+    background-image: url(razerwallpaperimg.jpg);
+    background-size: contain;
+}
+#img2{
+    background-image: url(razerwallpaperimg.jpg);
+    background-size: cover;
+}
+#img3{
+    background-image: url(razerwallpaperimg.jpg);
+    background-size: auto;
+}

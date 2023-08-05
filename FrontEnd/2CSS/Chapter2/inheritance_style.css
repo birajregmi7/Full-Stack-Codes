@@ -1,0 +1,18 @@
+div{
+    background-color: coral;
+}
+/* Here input doesnt inherit  */
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+
+/* Extra not required for inheritance */
+input:hover{
+    background-color: rgb(173, 173, 220);
+}
+button:hover{
+    background-color: blanchedalmond;
+}

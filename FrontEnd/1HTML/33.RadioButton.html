@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">banana</label>
+        <input type="radio" name="fruit" id="Orange" value="orange">
+        <label for="Orange">Orange</label>
+        <button>Submit</button>
+        <p>Here since name=fruit of all three radio button are same so it is grouped together.
+            It means if all three input radio buttons had seperate name then we could have clicked all of the above radio button at same time
+        </p>
+        <p>
+            Value here if written it will send the data as a request 
+        </p>
+        <p>
+            http://127.0.0.1:5500/server?fruit=orange
+            when clicked orange, name = value : fruit= orange was displayed on URL
+        </p>
+        <input type="radio" name="fruit1" id="apple" value="apple">
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit2" id="banana" value="banana">
+        <label for="banana">banana</label>
+        <input type="radio" name="fruit3" id="Orange" value="orange">
+        <label for="Orange">Orange</label>
+        <button>Submit</button>
+        <p>Here name of all 3 radio buttons are different, so 3 radio are not grouped and they can be clicked at same time </p>
+    </form>
+</body>
+</html>

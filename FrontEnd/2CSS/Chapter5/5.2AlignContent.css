@@ -1,0 +1,39 @@
+.outer{
+    height:400px;
+    width: 80%;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    /* align-items: flex-end;  */
+    /* align-items:flex-start put the content at the top mean top of cross axis
+    align-items:flex-end puts content to bottom */
+    /* align-items: baseline;  */
+    /* all the text or content comes on same line although it's size */
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+
+    align-content: baseline;
+}
+.outer div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

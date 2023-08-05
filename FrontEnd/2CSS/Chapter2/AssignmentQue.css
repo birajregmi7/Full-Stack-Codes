@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+}
+#mainTopic{
+    color: blue;
+}
+h1,h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 +p{
+    background-color: cornflowerblue;
+
+}
+div  button{
+    background-color: purple;
+    color: azure;
+}
+/* Pseduo class and element */
+div  button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-child(odd){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+    font-weight: bold;
+  }
+/*#mainContent 100 */
+/*div.main 11 */
+/*.main 010 */
+/* h1 001 */
+

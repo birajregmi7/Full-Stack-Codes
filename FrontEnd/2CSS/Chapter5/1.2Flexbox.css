@@ -1,0 +1,14 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: antiquewhite;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+
+}
+.outer div{
+    height: 100px;
+    width: 80px;
+}

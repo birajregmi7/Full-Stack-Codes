@@ -1,0 +1,32 @@
+#box1{
+    height: 70px;
+    width: 200px;
+    background-color: purple;
+    margin: 30px;
+  }
+  #box2{
+      height: 70px;
+      width: 200px;
+      background-color: rgb(0, 119, 128);
+      margin: 100px;
+      transform: scale(1.5)
+  }
+  #box3{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(125, 240, 71);
+    margin: 100px;
+    transform: scale(0.5)
+}
+#box4{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(229, 240, 71);
+    margin: 100px;
+    transform: scaleX(1.5)
+    /* transform: scaleY(1.5) */
+    /* transform: scale(1.5,2) to increase or decrease x and y respectively */
+}
+
+
+  

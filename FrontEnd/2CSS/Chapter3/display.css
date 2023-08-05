@@ -1,0 +1,9 @@
+h1{
+    display: inline;
+    color: brown;
+    margin: 10px;
+}
+span{
+    display: block;
+    margin: 10px;
+}
